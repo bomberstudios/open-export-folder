@@ -1,0 +1,29 @@
+{
+  "name": "open-export-folder",
+  "description": "Opens the export folder in Finder right after exporting",
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "open-export-folder",
+    "manifest": "src/manifest.json",
+    "main": "open-export-folder.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.11"
+  },
+  "author": "Ale Muñoz <bomberstudios@gmail.com>",
+  "dependencies": {
+    "@skpm/child_process": "^0.3.1"
+  }
+}

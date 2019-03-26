@@ -1,0 +1,19 @@
+{
+  "name": "Open Export Folder",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "my-command",
+      "identifier": "open-export-folder.my-command-identifier",
+      "script": "./my-command.js",
+      "handlers": {
+        "actions": {
+          "ExportSlices": "open",
+          "Export": "open"
+        }
+      }
+    }
+  ]
+}
