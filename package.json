@@ -23,6 +23,7 @@
     "@skpm/builder": "^0.5.11"
   },
   "author": "Ale Muñoz <bomberstudios@gmail.com>",
+  "repository": "https://github.com/bomberstudios/open-export-folder.git",
   "dependencies": {
     "@skpm/child_process": "^0.3.1"
   }
