@@ -1,7 +1,7 @@
 {
   "name": "open-export-folder",
   "description": "Opens the export folder in Finder right after exporting",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "engines": {
     "sketch": ">=3.0"
   },
